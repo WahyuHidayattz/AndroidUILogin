@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="20dp"
+	android:gravity="center_vertical"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/login_title"
+		android:orientation="vertical"
+		android:layout_marginBottom="10dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="30sp"
+			android:textStyle="bold"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:text="Register"
+			android:typeface="serif"
+			android:textColor="?android:attr/textColorPrimary"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:textStyle="normal"
+			android:text="Daftar untuk menjadi member"
+			android:typeface="serif"
+			android:textColor="?android:attr/textColorSecondary"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/login_input"
+		android:layout_marginBottom="10dp">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			app:cardCornerRadius="3dp"
+			app:cardBackgroundColor="?attr/card_background"
+			app:cardElevation="1dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:orientation="horizontal"
+				android:gravity="center_vertical">
+
+				<ImageView
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:padding="12dp"
+					android:src="@drawable/ic_album_black_24dp"
+					android:tint="?attr/colorPrimary"/>
+
+				<View
+					android:background="?android:attr/dividerHorizontal"
+					android:layout_height="match_parent"
+					android:layout_width="1dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:textSize="15sp"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="12dp"
+					android:maxLines="1"
+					android:id="@+id/edit_name"
+					android:hint="Full Name"
+					android:typeface="serif"
+					android:background="?attr/card_background"
+					android:inputType="textEmailAddress"/>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			app:cardCornerRadius="3dp"
+			app:cardBackgroundColor="?attr/card_background"
+			app:cardElevation="1dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:orientation="horizontal"
+				android:gravity="center_vertical">
+
+				<ImageView
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:padding="12dp"
+					android:src="@drawable/ic_email_black_24dp"
+					android:tint="?attr/colorPrimary"/>
+
+				<View
+					android:background="?android:attr/dividerHorizontal"
+					android:layout_height="match_parent"
+					android:layout_width="1dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:textSize="15sp"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="12dp"
+					android:maxLines="1"
+					android:id="@+id/edit_email"
+					android:hint="Email Address"
+					android:typeface="serif"
+					android:background="?attr/card_background"
+					android:inputType="textEmailAddress"/>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			app:cardCornerRadius="3dp"
+			app:cardBackgroundColor="?attr/card_background"
+			app:cardElevation="1dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:orientation="horizontal"
+				android:gravity="center_vertical">
+
+				<ImageView
+					android:layout_width="48dp"
+					android:layout_height="48dp"
+					android:padding="12dp"
+					android:src="@drawable/ic_lock_black_24dp"
+					android:tint="?attr/colorPrimary"/>
+
+				<View
+					android:background="?android:attr/dividerHorizontal"
+					android:layout_height="match_parent"
+					android:layout_width="1dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="40dp"
+					android:textSize="15sp"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="12dp"
+					android:maxLines="1"
+					android:id="@+id/edit_password"
+					android:hint="Password"
+					android:typeface="serif"
+					android:background="?attr/card_background"
+					android:inputType="textPassword"/>
+
+			</LinearLayout>
+
+		</android.support.v7.widget.CardView>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/login_button">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			app:cardCornerRadius="3dp"
+			app:cardBackgroundColor="?attr/colorPrimary"
+			app:cardElevation="1dp"
+			android:id="@+id/register"
+			android:foreground="?attr/selectableItemBackground"
+			app:theme="@style/RippleLight">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="48dp"
+				android:gravity="center"
+				android:text="REGISTER"
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:textColor="#ffffff"/>
+
+		</android.support.v7.widget.CardView>
+
+	</LinearLayout>
+
+</LinearLayout>
+

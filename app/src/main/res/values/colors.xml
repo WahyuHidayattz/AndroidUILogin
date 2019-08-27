@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- AppCompat Colors-->
+	<color name="colorPrimary">#673AB7</color>
+	<color name="colorPrimaryDark">#5E35B1</color>
+	<color name="colorAccent">#FF9800</color>
+	<color name="colorControlNormal">#ffffff</color>
+	
+	<!-- Background Colors -->
+	<color name="mainBackground">#ffffff</color>
+	<color name="cardBackground">#f8f8f8</color>
+	
+	<!-- Text Colors -->
+	<color name="textPrimary">#000000</color>
+	<color name="textSecondary">#666666</color>
+	
+	<!-- Ripple Colors -->
+	<color name="rippleDark">#4D000000</color>
+	<color name="rippleLight">#4Dffffff</color>
+	<color name="rippleAccent">#4D673AB7</color>
+</resources>
